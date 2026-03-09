@@ -43,7 +43,7 @@
 #     </div>
 #     <div style="flex: 1;  text-align: left;">
 #
-# ## Who's this bird-brain?
+# ## Who is this bird-brain?
 #
 # - Andy Choens
 # - Big Yosemite Sam Fan
@@ -152,14 +152,44 @@
 
 # # ⏰ Next Steps:
 #
-# 0. [import.py](./import.py):
+# 0. Install DuckDB & Ibis
+# 1. [import.py](./import.py):
 #     - Medicaid Provider Spending
 #     - HCPCS
 #     - Tour of DuckDB CLI and GUI.
-# 1. [analysis.py](./analysis.py)
-# 2. [upload.py](./upload.py)
-# 3. Port analysis to MotherDuck
+# 2. [analysis.py](./analysis.py)
+# 3. [upload.py](./upload.py)
+# 4. Port analysis to MotherDuck
 #
 # In the interest of time, some parts of this analysis were completed in advance.
 #
 # All code is available here: [gitlab.com/small-beautiful-data/demos/2026-medicaid-provider-spending](https://gitlab.com/small-beautiful-data/demos/2026-medicaid-provider-spending)
+
+# # Install DuckDB
+#
+# ## DuckDB
+#
+# - Like SQLite, DuckDB is an embedded analytics platform.
+# - No database server. Just install the driver for Python, R, DBeaver, etc.
+#     - 🪶 Featherweight Analytics!
+# - The code below installs the python tooling.
+# - As of today, the most recent release is 1.4.4
+#
+# ```
+# uv add duckdb
+#
+# pip install duckdb
+# ```
+#
+# To learn how to install the CLI app on your platform: [duckdb.org/install/?environment=cli](https://duckdb.org/install/?environment=cli)
+#
+# ## Ibis Framework
+#
+# - This would also install DuckDB, if it wasn't already installed.
+# - As of today, the most recent release is 12.0.0.
+#
+# ```
+# uv add ibis-framework[duckdb]
+#
+# pip install ibis-framework[duckdb]
+# ```
