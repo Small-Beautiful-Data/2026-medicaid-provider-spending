@@ -1,0 +1,26 @@
+[project]
+name = "medicaid-provider-spending"
+version = "0.1.0"
+description = "A demo of DuckDB, MotherDuck, and Ibis using the DOGE Medicaid Provider Spending data."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "altair>=6.0.0",
+    "arbalister>=0.2.1",
+    "dotenv>=0.9.9",
+    "duckdb>=1.4.4",
+    "httpx>=0.28.1",
+    "ibis-framework[duckdb]>=12.0.0",
+    "jupyter-lsp>=2.3.0",
+    "jupyterlab>=4.5.5",
+    "jupyterlab-git>=0.52.0",
+    "jupyterlab-quickopen>=2.1.0",
+    "jupyterlab-rise>=0.43.1",
+    "jupyterlab-slideshow>=0.3.4",
+    "jupytext>=1.19.1",
+    "loguru>=0.7.3",
+    "polars>=1.38.1",
+    "pyarrow>=23.0.1",
+    "python-lsp-server>=1.14.0",
+    "rich>=14.3.3",
+]

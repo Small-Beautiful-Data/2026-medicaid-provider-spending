@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.venv/
+.virtual_documents/
+.env
+*.csv
+*.zip
+*.duckdb
+*.log
