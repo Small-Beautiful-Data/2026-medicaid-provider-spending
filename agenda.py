@@ -130,7 +130,7 @@
 # <div style="display: flex; justify-content: space-between;">
 # <div style="flex: 1;  justify-content: left; ">
 #
-# ## Safety Data Sheet
+# ## Safety Data Sheet:
 #
 # ### Medicaid Provider Spending
 #
@@ -165,7 +165,7 @@
 #
 # All code is available here: [gitlab.com/small-beautiful-data/demos/2026-medicaid-provider-spending](https://gitlab.com/small-beautiful-data/demos/2026-medicaid-provider-spending)
 
-# # Install DuckDB
+# # Install Our Fowl Tools
 #
 # ## DuckDB
 #
