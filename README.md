@@ -13,6 +13,8 @@ Constraints:
 
 # Agenda
 
+Each of these .py files is intended to be opened as as a Jupytext notebook using Jupyterlab. They will run regardless, but the formatting of the slides may differ if not used in Jupyterlab (dark mode theme). 
+
 - [agenda.py](./agenda.py)
 - [import.py](./import.py)
 - [analysis.py](./analysis.py)
